@@ -1,0 +1,24 @@
+@api = http://localhost:5000
+
+POST {{api}}/videos
+Content-Type: application/json
+
+
+{
+    "title": "Code Fi",
+    "url": "https://www.youtube.com/watch?v=f02mOEt11OQ",
+    "description": "Es una la canción diseñada para programar"
+}
+###
+GET {{api}}/videos
+###
+GET {{api}}/videos/5f938435f1e96c2b9c2df9d1
+###
+PUT {{api}}/videos/5f933d2e0621962918f17900
+Content-Type: application/json
+
+{
+    "description": "Es la canción favorita de mi hermanita"
+}
+###
+DELETE {{api}}/videos/5f938435f1e96c2b9c2df9d1

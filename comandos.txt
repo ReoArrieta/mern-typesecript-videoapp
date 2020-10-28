@@ -1,0 +1,5 @@
+--------API---------------
+$ npm init -y
+$ npm i express mongoose morgan dotenv cors
+$ npm i -D typescript @types/express @types/morgan @types/mongoose @types/cors @types/node ts-node-dev
+$ npx tsc --init
